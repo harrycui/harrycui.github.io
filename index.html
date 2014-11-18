@@ -6,7 +6,10 @@
     <title>Harry CUI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.3.0/paper/bootstrap.min.css" rel="stylesheet">
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js">
+    </script>
 </head>
 <body>
 
@@ -16,7 +19,7 @@
 		</div>
 	</div>
 	<hr>
-
+	
 	<div class="container">
 	<div class="row">
 		<div class="col-lg-2">
@@ -54,20 +57,41 @@
 	</div>
 	</div>
 	<hr>
+
 	<div class="container">
-		<h4> About Me </h4>
+		<div class="bs-component">
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#bio" data-toggle="tab">Bio</a></li>
+                <li><a href="#publication" data-toggle="tab">Publication</a></li>
+                <!--<li class="disabled"><a>Disabled</a></li>
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    Dropdown <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#dropdown1" data-toggle="tab">Action</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#dropdown2" data-toggle="tab">Another action</a></li>
+                  </ul>
+                </li>-->
+			</ul>
+			<div id="myTabContent" class="tab-content">
+				<div class="tab-pane fade active in" id="bio">
+
+    <div class="container">
+		<h5> About Me </h5>
 		<p>
 			I am a first year PhD student in <a href = "http://www.cityu.edu.hk"target="_blank">City University of Hong Kong</a>. I obtained my MSc degree in Information Engineering from <a href = "http://www.cuhk.edu.hk"target="_blank">The Chinese University of Hong Kong</a> in November 2013 and B.Eng. degree in Software Engineering from <a href = "http://www.nwpu.edu.cn" target="_blank">Northwestern Polytechnical University</a> in July 2010.
         </p>
 	</div>
 	<div class="container">
-		<h4> Research Interests </h4>
+		<h5> Research Interests </h5>
 		<p>
 			My research interests are Cloud Security, Cryptography, Social Networks, Mobile Security, Distributed Systems etc.
         </p>
 	</div>
 	<div class="container">
-		<h4> Work Experience </h4>
+		<h5> Work Experience </h5>
 		<ul class = "square">
         	<li>Research Assistant, Department of Computer Science, CityU, Hong Kong, 2014.01-2014.08 </li>
         	<li>Programmer, Forerunner Technology Limited, Hong Kong, 2013.01-2013.11 </li>
@@ -75,7 +99,7 @@
     	</ul>
 	</div>
 	<div class="container">
-		<h4> Honors and Awards </h4>
+		<h5> Honors and Awards </h5>
 		<ul class = "square">
         	<li>Dean's List, Department of Information Engineering, CUHK, 2013</li>
     		<li>Information Engineering Scholarship, Department of Information Engineering, CUHK, 2012</li>
@@ -83,6 +107,27 @@
     		<li>First Prize Scholarship, Northwestern Polytechnical University, China, 2008 and 2009</li>
     	</ul>
 	</div>
+                </div>
+                <div class="tab-pane fade" id="publication">
+                <div class="container">
+				<h5> Conference </h5>
+					<p>
+					I am working on it.
+        			</p>
+				</div>
+                </div>
+                <!--
+                <div class="tab-pane fade" id="dropdown1">
+                  <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork.</p>
+                </div>
+                <div class="tab-pane fade" id="dropdown2">
+                  <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.</p>
+                </div>
+                -->
+              </div>
+	</div>
+
+	
 	<hr>
 	<div class="footer">
 		<center>
